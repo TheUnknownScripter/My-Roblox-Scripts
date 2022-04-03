@@ -23,17 +23,17 @@ Run.Stepped:connect(function()
 			then
 				x:Destroy()
 			end
-			for i, x in pairs(Lplr.Character.UpperTorso:GetDescendants()) do
+			for i, x in pairs(Lplr.Character.UpperTorso:GetChildren()) do
 				if x.Name == "BodyVelocity" then
 					x:Destroy()
 				end
 			end
-			for i, x in pairs(Lplr.Character.RightFoot:GetDescendants()) do
+			for i, x in pairs(Lplr.Character.RightFoot:GetChildren()) do
 				if x.Name == "BodyVelocity" then
 					x:Destroy()
 				end
 			end
-			for i, x in pairs(Lplr.Character.LowerTorso:GetDescendants()) do
+			for i, x in pairs(Lplr.Character.LowerTorso:GetChildren()) do
 				if x.Name == "BodyVelocity" then
 					x:Destroy()
 				end

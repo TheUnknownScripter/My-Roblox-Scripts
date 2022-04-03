@@ -1,7 +1,7 @@
 local Lplr = game:GetService("Players").LocalPlayer
 local Run = game:GetService("RunService")
 
-Run.RenderStepped:connect(function()
+Run.Stepped:connect(function()
 	if getgenv().On2 == true then
 		for i, x in pairs(Lplr.Character:GetDescendants()) do
 			if x.Name == "Block" then

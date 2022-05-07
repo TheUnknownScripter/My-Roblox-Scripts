@@ -1,270 +1,300 @@
-local uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu = {
-	_OwOuwUUWuUwuuwUowOOwouwUOwouWUOWO = 97,
-	_owOoWoOwOOwOUwUOwOUwUOwOOwouWuuwU = 114,
-	_uwUuwUOWOUwuowoOwOOwOOwOuwUOWOUWu = 115,
-	_UwUUwuOwOuwuOwOOwouwuOwouwUUwuoWo = 76,
-	_uWuuWUowOuwUuwUOwOOwOOwOuwuUWUoWO = 112,
-	_UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO = 108,
-	_owOOwOUwuOwOuwUowOoWOOwOOwOuwUOwO = 114,
-	_uWUUwUuwUOwOuwUOwoOwouwUowOUwUOwo = 82,
-	_UwUuWuOWOOwOUwuUwUUwUowOUwUuwUuwU = 117,
-	_OwOuWuOwoOwOoWoUwuOWoOWoOwOUwUUwU = 110,
-	_owOOwOuwUuwUOwOOwOOwoowOUwUOwOUwU = 66,
-	_oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo = 111,
-	_uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO = 99,
-	_OwoOwOOwouwUuwUUwUuwUuwUUWuUwuowO = 107,
-	_OWOOWoOwOOwOOwOOwouwUOwOUwuuwUuwU = 65,
-	_OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu = 116,
-	_owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu = 105,
-	_OwOUwuOWOuWuuwuUwUUwuowOuwUOwOoWo = 97,
-	_OwOuwUOwouWUOwOOwOUwuOwOuwUUwUOwO = 103,
-	_UwuOwOUwUuwUUwuuWUOwOuwuUwUOwoUwu = 85,
-	_UwUUwuuwuUwUOwOOwoOwOUWuuwUOwOoWo = 115,
-	_OwOuWuUwUUwuOwOUwuOwOUWuOWouwuOwo = 104,
-	_OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO = 121,
-	_OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu = 101,
-	_UwUOwoUwUOwoOwOUwuOwoOwoOwOuWuUWU = 72,
-	_uwUuwuUwUOwOOwoUwUOwOOwOOWOOwouwU = 118,
-	_OwoowOUwuuwUOwOOwOowOOwOuwUowOUwU = 75,
-	_UwUowOuWuowoOwOUwuOwoOwOUwuUwUuwU = 100,
-	_OwOOwoUWUowoOwOoWoOwOowOoWOOwOUwU = 84,
-	_owOUwUoWoOwOUWuuwUoWoOWoowoOWoOWO = 83,
-	_OwOoWouWuOwOOwOOwOoWoUwuOwOOwOuWU = 119,
-	_UWuOWoOwOOwouwUUwUOwOuwUuwUuwUOwO = 86,
-	_OwouWuoWOUwUOwOOwoOwOUwUOwOuwuOwO = 77,
-	_UwuUwUUwuuwUUwUOwOuwUuwUuWuUwUOWO = 80,
+local oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO = {
+	_uwUOwOuwuUwUUwUOwOuWUOwOowOOwOUwU = 97,
+	_uWUUwUOwOUwUowOOwoUwUOwoOwOuwUOwo = 103,
+	_UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU = 97,
+	_owoUwuowOOWOOwouwUOwoOwOoWoUwUoWo = 109,
+	_uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU = 101,
+	_uWUuWUUWuUwUOwoOWOuwUUwUOwOuWuoWo = 80,
+	_OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU = 108,
+	_uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO = 121,
+	_uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO = 114,
+	_uwUuwUUwUOwOOwoOWoUwUuwUowOUwuuwU = 115,
+	_OwOOWOuwUUwuUwuoWoOwoowoUwUOwOowO = 82,
+	_oWoowoUwuOwOowOOwoOWOuwUOwoOwoOwo = 117,
+	_UWuUwuUwUOwOoWOUWuoWoUwUUWUuwUuwu = 110,
+	_uwUOWOOwOowOowOOwOuwUUwUOwOOWoUwu = 83,
+	_UwUowooWOOwOuwUOwOUWuUWuOwOuwUuwU = 118,
+	_uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo = 105,
+	_UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU = 99,
+	_OwouWuuwUuwuOwOUwUUWUUwuUwuuwUUwU = 66,
+	_UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU = 111,
+	_uwUOwoUwuuwUOwoOWOUwUUwUuwUowOOwo = 107,
+	_UwUOwOOwOowOOwOuwUUwUOwOoWOUwuowO = 65,
+	_OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU = 116,
+	_UwuuwUOwOOwOUwuUwUUwUUwuuwUuWUuwU = 85,
+	_OwoUwuoWOuwUOwOuwuuwUowOOwOowOOwO = 104,
+	_UwuOwOUwUuwUuwUOwOUwUOwOOwOuwUOwO = 112,
+	_UwUowOowOOwOUwuOwOUWUOwOuWuUwuOwO = 72,
+	_OwoUwuowOOwOUwUOwOUwUowOuWuuwUUwu = 75,
+	_OwOUwuuwUUwUOwoowOUwUOwOuWUuWUOwO = 100,
+	_UwUUwUOwOOwouwuOWoUWUOwOoWOOwOowO = 84,
+	_uwUowOuwuOwouWUuwUOwoOwOOWoUWUOwO = 76,
+	_OwOuwUUwuuwUuwUuwUUwUUwUUwuoWOOwo = 119,
+	_UwUUwUuwUUwUuwUOwOUwUuwUOwOOwOUwU = 86,
+	_uwUoWOUwuUwUuwUUwUOwoUwUOwouwUowO = 77,
 }
-local uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu = string
-local OwOuWUuWuuWuUWUuwUOWOUwUUwUOWOUWUUwUOwOOwOUwuowOuWUUwUuWuoWoUwU =
-	getfenv()[uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
+local OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu = string
+local uwUOWouwUUwUuWUUwuowOUwUuwUoWoOwoUwUOwOuWUOwOOwOOwOOWoowoUwUOwO =
+	getfenv()[OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
 		(function(
-			UwuuWuOwOoWOuWUuwUUWuUwuuWuUwuOwoUwUUwuoWoowOOwouwUOwOOwOuwUOwO,
-			OWOuwuUwUuwUOwoUWUowOOWouwUowOUwUOwOowOUWuowOuwUUwUUWuuwUUwUUwU
+			OwOuwUuwUuwUuwUOwOUwuOwOuwuOWouwUOwOUwUUwUUwUOwoUwUoWoOWouwUUwU,
+			OwOowOUwUowOOwOuWUOWoUwuoWOoWOowoowoOwOOwOuwUuWuowOOwOOWOUWUOwO
 		)
-			local OWoowOOwOUwUOwOOwOOwOowOOwOuwUuwUOwOOwoowoOwOOWoOwOOwOUwUowOOwO = { 602, 663, 614, 82, 252 }
-			return #OWoowOOwOUwUOwOOwOOwOowOOwOuwUuwUOwOOwoowoOwOOWoOwOOwOUwUowOOwO
+			local OwOUWuUwUuwUowOUwuuwUOwoOwOUwuOwOUwuOwOOwOUwuOWOuwUOwOUwUUwUOwo = { 785, 696, 201, 254, 274 }
+			return #OwOUWuUwUuwUowOUwuuwUOwoOwOUwuOwOUwuOwOOwOUwuOWOuwUOwOUwUUwUOwo
 		end)() + 107,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuwUUWuUwuuwUowOOwouwUOwouWUOWO,
+		oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwuUwUUwUOwOuWUOwOowOOwOUwU,
 		(function(
-			uWUOwOOwOOwOowoOwOuwUOwOOWOuwUUwUOwoowOUwUOWoowOOwOOWOowOuwUowO,
-			uWuuWUowooWOuwUuwuOwouwUuwUoWOowOowOUwUUwuUwuUwUOwOUWUowOowOuwU
+			OwOOwOOwOOWoOwouwUuwUOwoOwoUwUUwuOwOOwOOwOOwOOWOuwUuWUOwoOwOowO,
+			uwUOwOOwOOwoOwOOwoUWUOwOOwOuwUUWUOwOowoOwOUwUuWuOWOuWuUwUOwoOWo
 		)
-			local uwUowouWuOwOUwUOwOOwOuwUOwoUwUOwOOwOowOowOOwOuwUUwUUwUOwOOwOUwu = { 79, 487, 843, 355, 632 }
-			return #uwUowouWuOwOUwUOwOOwOuwUOwoUwUOwOOwOowOowOOwOuwUUwUUwUOwOOwOUwu
+			local OwoOwoUwUOwOUwuuwUOwOowouwUUWuoWOOwOOwOOWoOwoUWUOwoOwOUwUuWuoWO = { 824, 316, 315, 77, 528 }
+			return #OwoOwoUwUOwOUwuuwUOwOowouwUUWuoWOOwOOwOOWoOwoUWUOwoOwOUwUuWuoWO
 		end)() + 100,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOoWoOwOOwOUwUOwOUwUOwOOwouWuuwU,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUOWOUwuowoOwOOwOOwOuwUOWOUWu
-	) .. uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char() .. ""]
-local uwUUwuUwUuwUOwoUWuoWoUwUowOuWUOWOOwOOwOOwoOwoOwOUWuUwuuwuOwoOwO =
-	getfenv()[uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUUwuOwOuwuOwOOwouwuOwouwUUwuoWo,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uWuuWUowOuwUuwUOwOOwOOwOuwuUWUoWO,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOUwuOwOuwUowOoWOOwOOwOuwUOwO
+		(function(
+			OwOOwOOwOUwUOwoOwouwuowOuwUOwOUwUUWuoWoUwuUwUOwOUwUowouwUOWoowO,
+			OwOOwOoWoOwOOWooWOOwoOwOOwOowOowOUwuuwUOwooWOuwuOwoOwoUwuOwOOWo
+		)
+			local OwoOwOOwooWOuwUOWOUwUOwoUwuOwOUwUOwOowOuwUuwUUwUOwOOwOOwOOwOUwU = { 38, 816, 247, 174, 883 }
+			return #OwoOwOOwooWOuwUOWOUwUOwoUwuOwOUwUOwOowOuwUuwUUwUOwOOwOOwOOwOUwU
+		end)() + 109,
+		(function()
+			local owOUwuowOuWUOwoOwOOwOOwoUWuUwUUwUowoOwOuwUUwUOwOUwUUwuuwUUwUuwU =
+				"3E15F1C60CD9ACBE17DACD2EB06E115942EEDA2FC228B6F3D72373238D273EA3050B502F698FE971D9C21B1051C567FAEA68"
+			return #owOUwuowOuWUOwoOwOOwOOwoUWuUwUUwUowoOwOuwUUwUOwOUwUUwuuwUUwUuwU + 15
+		end)()
+	) .. OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char() .. ""]
+local UwUUwUuwUuwuUwUOwOUWUowOUwuUwUuwUuWuUwUuwUOwOoWoUwUowouwUUwuOwO =
+	getfenv()[OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+		oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWUUwUOwOUwUowOOwoUwUOwoOwOuwUOwo,
+		oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+		oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._owoUwuowOOWOOwouwUOwoOwOoWoUwUoWo,
+		oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU
 	) .. ""]
-local OwOOwOuwUUWuOwOOwoOWOOwOoWOuwuUwUUwUUwUoWouwUUwuuwUuwUuwUOwOOwo =
-	getfenv()[uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uWUUwUuwUOwOuwUOwoOwouwUowOUwUOwo,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUuWuOWOOwOUwuUwUUwUowOUwUuwUuwU,
-		uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuOwoOwOoWoUwuOWoOWoOwOUwUUwU
-	) .. ""]
-OwOOwOuwUUWuOwOOwoOWOOwOoWOuwuUwUUwUUwUoWouwUUwuuwUuwUuwUOwOOwo.RenderStepped:connect(function()
+local uwUUwUUwUuwUOwOuWuUWUuwuuWUOwOOwOoWOoWoOwoUwuUwUUwUuwuOwoUwUUwU =
+	UwUUwUuwUuwuUwUOwOUWUowOUwuUwUuwUuWuUwUuwUOwOoWoUwUowouwUUwuOwO:GetService(
+		OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWUuWUUWuUwUOwoOWOuwUUwUOwOuWuoWo,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUUwUOwOOwoOWoUwUuwUowOUwuuwU
+		) .. ""
+	).LocalPlayer
+local uwuOwoUwuOwOuwUOwOOwOoWOOwOuwUOwOuWUowOOwOOwOUwUOwoowOuWuuwUowO =
+	UwUUwUuwUuwuUwUOwOUWUowOUwuUwUuwUuWuUwUuwUOwOoWoUwUowouwUUwuOwO:GetService(
+		OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOuwUUwuUwuoWoOwoowoUwUOwOowO,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._oWoowoUwuOwOowOOwoOWOuwUOwoOwoOwo,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UWuUwuUwUOwOoWOUWuoWoUwUUWUuwUuwu,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOWOOwOowOowOOwOuwUUwUOwOOWoUwu,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUowooWOOwOuwUOwOUWuUWuOwOuwUuwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+			oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU
+		) .. ""
+	)
+uwuOwoUwuOwOuwUOwOOwOoWOOwOuwUOwOuWUowOOwOOwOUwUOwoowOuWuuwUowO.RenderStepped:connect(function()
 	for
-		uwUOwOOWoOWouwuOwOOwOOwOUWUUwuuWUOwOowoUWuOwOOwOUwUuwuOwOowOOwo,
-		uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU
+		OwOuWUOwoUwUOwOUwuOwouwUowOOwOowOuwUOwOuwUuwUuwuOwOoWoUwUowOuwu,
+		UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO
 	in
-		OwOuWUuWuuWuUWUuwUOWOUwUUwUOWOUWUUwUOwOOwOUwuowOuWUUwUuWuoWoUwU(
-			uwUUwuUwUuwUOwoUWuoWoUwUowOuWUOWOOwOOwOOwoOwoOwOUWuUwuuwuOwoOwO.Character:GetChildren()
+		uwUOWouwUUwUuWUUwuowOUwUuwUoWoOwoUwUOwOuWUOwOOwOOwOOWoowoUwUOwO(
+			uwUUwUUwUuwUOwOuWuUWUuwuuWUOwOOwOoWOoWoOwoUwuUwUUwUuwuOwoUwUUwU.Character:GetChildren()
 		)
 	do
 		if
-			uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name
-			== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOuwUuwUOwOOwOOwoowOUwUOwOUwU,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwoOwOOwouwUuwUUwUuwUuwUUWuUwuowO
+			UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name
+			== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwouWuuwUuwuOwOUwUUWUUwuUwuuwUUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwoUwuuwUOwoOWOUwUUwUuwUowOOwo
 				)
 				.. ""
 		then
-			uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Value = false
+			UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Value = false
 		end
 		if
-			uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name
-				== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWOOWoOwOOwOOwOOwouwUOwOUwuuwUuwU,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuOwoOwOoWoUwuOWoOWoOwOUwUUwU
+			UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name
+				== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOOwOowOOwOuwUUwUOwOoWOUwuowO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UWuUwuUwUOwOoWOUWuoWoUwUUWUuwUuwu
 				) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWOOWoOwOOwOOwOOwouwUOwOUwuuwUuwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwuOWOuWuuwuUwUUwuowOuwUOwOoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwoOwOOwouwUuwUUwUuwUuwUUWuUwuowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuOwoOwOoWoUwuOWoOWoOwOUwUUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuwUOwouWUOwOOwOUwuOwOuwUUwUOwO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOOwOowOOwOuwUUwUOwOoWOUwuowO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwoUwuuwUOwoOWOUwUUwUuwUowOOwo,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UWuUwuUwUOwOoWOUWuoWoUwUUWUuwUuwu,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWUUwUOwOUwUowOOwoUwUOwoOwOuwUOwo
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwuOwOUwUuwUUwuuWUOwOuwuUwUOwoUwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUUwuuwuUwUOwOOwoOwOUWuuwUOwOoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuOwoOwOoWoUwuOWoOWoOwOUwUUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuwUOwouWUOwOOwOUwuOwOuwUUwUOwO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuuwUOwOOwOUwuUwUUwUUwuuwUuWUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUUwUOwOOwoOWoUwUuwUowOUwuuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UWuUwuUwUOwOoWOUWuoWoUwUUWUuwUuwu,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWUUwUOwOUwUowOOwoUwUOwoOwOuwUOwo
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuUwUUwuOwOUwuOwOUWuOWouwuOwo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uWuuWUowOuwUuwUOwOOwOOwOuwuUWUoWO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOUwuOwOuwUowOoWOOwOOwOuwUOwO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwuoWOuwUOwOuwuuwUowOOwOowOOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwOUwUuwUuwUOwOUwUOwOOwOuwUOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUOwoUwUOwoOwOUwuOwoOwoOwOuWuUWU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uWuuWUowOuwUuwUOwOOwOOwOuwuUWUoWO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOUwuOwOuwUowOoWOOwOOwOuwUOwO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUowOowOOwOUwuOwOUWUOwOuWuUwuOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwOUwUuwUuwUOwOUwUOwOOwOuwUOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuUwUUwuOwOUwuOwOUWuOWouwuOwo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwuOWOuWuuwuUwUUwuowOuwUOwOoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwuUwUOwOOwoUwUOwOOwOOWOOwouwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwuoWOuwUOwOuwuuwUowOOwOowOOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUowooWOOwOuwUOwOUWuUWuOwOuwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwoowOUwuuwUOwOOwOowOOwOuwUowOUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOuwUuwUOwOOwOOwoowOUwUOwOUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwuOWOuWuuwuUwUUwuowOuwUOwOoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUUwuuwuUwUOwOOwoOwOUWuuwUOwOoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUowOuWuowoOwOUwuOwoOwOUwuUwUuwU
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwuowOOwOUwUOwOUwUowOuWuuwUUwu,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwouWuuwUuwuOwOUwUUWUUwuUwuuwUUwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUUwUOwOOwoOWoUwUuwUowOUwuuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOUwuuwUUwUOwoowOUwUOwOuWUuWUOwO
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwoUWUowoOwOoWoOwOowOoWOOwOUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUUwUOwOOwouwuOWoUWUOwOoWOOwOowO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwoowOUwuuwUOwOOwOowOOwOuwUowOUwU,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUowOuWuowoOwOUwuOwoOwOUwuUwUuwU
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwuowOOwOUwUOwOUwUowOuWuuwUUwu,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOUwuuwUUwUOwoowOUwUOwOuWUuWUOwO
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name == uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUUwuOwOuwuOwOOwouwuOwouwUUwuoWo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-				uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwoOwOOwouwUuwUUwUuwUuwUUWuUwuowO
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name == OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUowOuwuOwouWUuwUOwoOwOOWoUWUOwO,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+				oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwoUwuuwUOwoOWOUwUUwUuwUowOOwo
 			) .. ""
-			or uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU.Name
-				== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUoWoOwOUWuuwUoWoOWoowoOWoOWO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOoWouWuOwOOwOOwOoWoUwuOwOOwOuWU
+			or UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO.Name
+				== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOWOOwOowOowOOwOuwUUwUOwOOWoUwu,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOuwUUwuuwUuwUuwUUwUUwUUwuoWOOwo
 				) .. ""
 		then
-			uwuoWOOwOOWoUwuOwOowOowoUwUOWOuwUOwOuWUUwUOwOOwOuwUuWuOwOUwUUwU:Destroy()
+			UwUOwouwUUwUuWuUWuuwUOwOUwUOWoowOUwUOWOuwUUwUUwUoWOOwouwUUwUOWO:Destroy()
 		end
 	end
 	for
-		UwuoWoOWOUwUuwUOwoUwUUwUUwUOwOuwUOwoUwUOWOuwUowOUwUUwUUwuUwuUwu,
-		OwOUwUoWoOWOuwuuWuuWUuWUUwuUwUuwuOwOOwOuwUOwOuwUUWUowoowOUwUOwO
+		OWOUwUOwOowoOwOoWouwUoWOOwOUwUOwoOwOUwUuwUUwuOwOuWUowOuwUOwOOWo,
+		owOOwOUwUUwUuwUUWUOWoUwuuwUowOUwUuwUOwoUwuUwUOwoOwoUWuuwUowoUwU
 	in
-		OwOuWUuWuuWuUWUuwUOWOUwUUwUOWOUWUUwUOwOOwOUwuowOuWUUwUuWuoWoUwU(
-			uwUUwuUwUuwUOwoUWuoWoUwUowOuWUOWOOwOOwOOwoOwoOwOUWuUwuuwuOwoOwO.Character.HumanoidRootPart:GetChildren()
+		uwUOWouwUUwUuWUUwuowOUwUuwUoWoOwoUwUOwOuWUOwOOwOOwOOWoowoUwUOwO(
+			uwUUwUUwUuwUOwOuWuUWUuwuuWUOwOOwOoWOoWoOwoUwuUwUUwUuwuOwoUwUUwU.Character.HumanoidRootPart:GetChildren()
 		)
 	do
 		if
-			OwOUwUoWoOWOuwuuWuuWUuWUUwuUwUuwuOwOOwOuwUOwOuwUUWUowoowOUwUOwO.Name
-			== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOuwUuwUOwOOwOOwoowOUwUOwOUwU,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUowOuWuowoOwOUwuOwoOwOUwuUwUuwU,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWuOWoOwOOwouwUUwUOwOuwUuwUuwUOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO
+			owOOwOUwUUwUuwUUWUOWoUwuuwUowOUwUuwUOwoUwuUwUOwoOwoUWuuwUowoUwU.Name
+			== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwouWuuwUuwuOwOUwUUWUUwuUwuuwUUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOUwuuwUUwUOwoowOUwUOwOuWUuWUOwO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUUwUuwUUwUuwUOwOUwUuwUOwOOwOUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO
 				)
 				.. ""
 		then
-			OwOUwUoWoOWOuwuuWuuWUuWUUwuUwUuwuOwOOwOuwUOwOuwUUWUowoowOUwUOwO:Destroy()
+			owOOwOUwUUwUuwUUWUOWoUwuuwUowOUwUuwUOwoUwuUwUOwoOwoUWuuwUowoUwU:Destroy()
 		end
 	end
 	for
-		uwUOwOowOUwuOwoOwOOwOUwUOwOuwuuwUuwUoWOUwUuWUuWuowoowOowOuwUOwO,
-		UWUUWuOwOowOOwOOwOuwUOwouWuuwUoWoOwOOwoowOUWUUwUowOOWoUwUUwUUWU
+		UwuowOUwUUwUUwUUwUUWUUwUowOuWUUwUowOUwUUwUowOUwuOwOUwuOwOOwOOwO,
+		owoOwOOwOUwUOwOUwUoWoOwOOwOOwOUwuUWUOwOUWuOwOOwOowOOwoUwUOwOOwO
 	in
-		OwOuWUuWuuWuUWUuwUOWOUwUUwUOWOUWUUwUOwOOwOUwuowOuWUUwUuWuoWoUwU(
-			uwUUwuUwUuwUOwoUWuoWoUwUowOuWUOWOOwOOwOOwoOwoOwOUWuUwuuwuOwoOwO.Character:GetChildren()
+		uwUOWouwUUwUuWUUwuowOUwUuwUoWoOwoUwUOwOuWUOwOOwOOwOOWoowoUwUOwO(
+			uwUUwUUwUuwUOwOuWuUWUuwuuWUOwOOwOoWOoWoOwoUwuUwUUwUuwuOwoUwUUwU.Character:GetChildren()
 		)
 	do
 		if
-			UWUUWuOwOowOOwOOwOuwUOwouWuuwUoWoOwOOwoowOUWUUwUowOOWoUwUUwUUWU.ClassName
-			== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwouWuoWOUwUOwOOwoOwOUwUOwOuwuOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUUwuuwuUwUOwOOwoOwOUWuuwUOwOoWo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOuWuUwUUwuOwOUwuOwOUWuOWouwuOwo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwuUwUUwuuwUUwUOwOuwUuwUuWuUwUOWO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwuOWOuWuuwuUwUUwuowOuwUOwOoWo,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOUwuOwOuwUowOoWOOwOOwOuwUOwO,
-					uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu
+			owoOwOOwOUwUOwOUwUoWoOwOOwOOwOUwuUWUOwOUWuOwOOwOowOOwoUwUOwOOwO.ClassName
+			== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUoWOUwuUwUuwUUwUOwoUwUOwouwUowO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUUwUOwOOwoOWoUwUuwUowOUwuuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwuoWOuwUOwOuwuuwUowOOwOowOOwO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWUuWUUWuUwUOwoOWOuwUUwUOwOuWuoWo,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuOwoOwOOwOoWOUwUuWuOwOowOUwUuwU,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUuwUowOuwUUwUowoUwuUwUUwUuWuowO,
+					oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU
 				)
 				.. ""
 		then
 			for
-				OWoOwoowOUwUOwOuwUOwoOwOOwOUwUoWoOwOowOuwUowoUwUowoUwUOwOUwUuWU,
-				UwUOwOUwUoWouwUowoUwUoWouwUOwOuwUUwUUwUOwOUwUuWUUwUUwUOwOUWuOwo
+				owOOwOUwUOwOowOUwUUwUOwOOwOuwUuwuuwUUwUUwuUwUOwOUwUuwUUwuowouwU,
+				owOUwUuwUowOowOOwOuwUuwUUwUowoOwoUwUOwOUwuowOOwOOwOowOowOuWUuWu
 			in
-				OwOuWUuWuuWuUWUuwUOWOUwUUwUOWOUWUUwUOwOOwOUwuowOuWUUwUuWuoWoUwU(
-					UWUUWuOwOowOOwOOwOuwUOwouWuuwUoWoOwOOwoowOUWUUwUowOOWoUwUUwUUWU:GetChildren()
+				uwUOWouwUUwUuWUUwuowOUwUuwUoWoOwoUwUOwOuWUOwOOwOOwOOWoowoUwUOwO(
+					owoOwOOwOUwUOwOUwUoWoOwOOwOOwOUwuUWUOwOUWuOwOOwOowOOwoUwUOwOOwO:GetChildren()
 				)
 			do
 				if
-					UwUOwOUwUoWouwUowoUwUoWouwUOwOuwUUwUUwUOwOUwUuWUUwUUwUOwOUWuOwo.Name
-					== uwUuwUowOOwoOwoUWUOwOuWuowOowOUwuOwOUwuOwouwUuwUuwUuwUOwOUwUUwu.char(
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOOwOuwUuwUOwOOwOOwoowOUwUOwOUwU,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UwUowOuWuowoOwOUwuOwoOwOUwuUwUuwU,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWuOWoOwOOwouwUUwUOwOuwUuwUuwUOwO,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OWoUWUUwuOwOOwOUwuuWuUwuOwOUwuuwu,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._UWUUwUOwOUwuUwuOwOowOuwUOWoOwOowO,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._oWOUwUuwUuwUuwUOwoOwOUwUOwOUwUOwo,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._uwUuwUUwUUwUOwOOWoowOUwUOwoOWOOwO,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._owOUwUuwUUwuOwOuwUOWOowoUwuuWuuwu,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOUwUuwUOwoUwUOwOUwUOwOUwuOwouwu,
-							uwUUwuOwOOwOUwUOwOUWUOwOUwUowOOwoOwOUwUOwOoWOUwuUWUUwUoWOOwouWu._OwOOwouwuUwUoWOuwUUWuuWuOwoOwOowO
+					owOUwUuwUowOowOOwOuwUuwUUwUowoOwoUwUOwOUwuowOOwOOwOowOowOuWUuWu.Name
+					== OwoOWoOwouwUOwOUwUuwUOwOUwUowOowOOwOOWOUwUUwUuwUOwOOwOUwUUwUUwu.char(
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwouWuuwUuwuOwOUwUUWUUwuUwuuwUUwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOUwuuwUUwUOwoowOUwUOwOuWUuWUOwO,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUUwUuwUUwUuwUOwOUwUuwUOwOOwOUwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOuwUOwoOwOUwuuwUUwUuwUowOuwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwoUwUuwUUwUOwOOwOuwuuwUUwuUwUuwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwUOwOUwUUwuOwoUwUOwOUwUUwUowOuwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._UwuUWuUwUUwUUWUOwOOwoUwUuwUOWOUwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uwUOwOUwuuWuOwOOwouwUUwUOwOowOOwo,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._OwOOWOUWuowOowOUwuuwUOwOuwUOwOuwU,
+							oWOuwuOwoUwUUwUOwouwUowOUwuUwUOWOuwUOWOUWuuwUoWOowOuWUOwOuWuOwO._uWuOwOuwUoWOUwuUwUuwUOwoOwOOwOOwO
 						)
 						.. ""
 				then
-					UwUOwOUwUoWouwUowoUwUoWouwUOwOuwUUwUUwUOwOUwUuWUUwUUwUOwOUWuOwo:Destroy()
+					owOUwUuwUowOowOOwOuwUuwUUwUowoOwoUwUOwOUwuowOOwOOwOowOowOuWUuWu:Destroy()
 				end
 			end
 		end
